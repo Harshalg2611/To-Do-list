@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar
+{
+    background-color: skyblue;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+    
+}
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+}
+.logo
+{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;  
+}
+.border
+{
+    border: 2px solid transparent;
+    padding: .2rem .2rem;
+}
+.border:hover{
+    border: 2px solid yellowgreen;
+}
+.address1
+{
+    color:antiquewhite;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.address2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/* cart */
+.nav-cart  i{
+    font-size: 35px;
+}
+.nav-cart p{
+    font-size: 0.85rem;
+    font-weight: .7rem;
+}
+
+.add-icon
+{
+    display: flex;
+    align-items: center;
+}
+.nav-search
+{
+    display: flex;
+    background-color: grey;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+
+}
+.search-select
+{
+
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    /*border-radius: 4px;*/
+    border-top-left-radius: 2px solid ;
+    border-bottom-left-radius: 2px solid ;
+    border: none;
+    border: 2px solid black;
+
+}
+.search-input
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color:#febd68;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-radius: 4px;*/
+    border-top-right-radius: 2px solid ;
+    border-bottom-right-radius: 2px solid ;
+    color: black;
+}
+/* box-4 */
+.span{
+    font-size: 0.7rem;
+}
+
+.nav-sign-in pre{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-return
+{
+    font-size: 1rem;
+}
+.nav-return pre{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-search:hover{
+    /*border: 2px solid orange;*/
+    border-top-right-radius: 2px solid orange;
+    border-bottom-right-radius: 2px solid orange;
+}
+
+.panel
+{
+     height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-size: 0.85rem;
+}
+.panel-ops p
+{
+    display: inline;
+    font-weight: 700;
+    margin: 15px;
+    
+}
+.border
+{
+    border: 2px solid transparent;
+    padding: .2rem .2rem;
+}
+.border:hover{
+    border: 2px solid yellowgreen;
+}
+.panel-ops
+{
+    width: 70%;
+}
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.slideshow-container {
+    max-width: 100000px;
+    position: relative;
+    margin: auto; 
+  }
+  
+  /* Hide the images by default */
+  .mySlides  {
+    display: none;
+    width: 100%;
+    display: flex;  
+  }
+  .mySlides img {
+   height: 400px;
+    width: 100%;
+    box-shadow: #f3f3f3; 
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.shop-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    background-color: #e2e7e6;
+}
+.box
+  {
+border: 1px solid;
+height: 400px;
+width: 23%;
+background-color: skyblue;
+padding: 20px 0px 15px;
+margin-top: 15px;
+margin-bottom: 1rem;
+border-radius: 1rem;
+  }
+  .box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 0.85rem;
+    
+
+  }
+.box-content
+{
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 20rem;
+}
+.box-content p{
+    padding-top: 1rem;
+    color: #007185;
+    align-items: center;
+    justify-content: center;
+}
+.box-content p:hover{
+    color: red;
+}
+.panel1
+{
+    background-color: #37475a;
+    color: #e2e7e6;
+    height: 3.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 7mm;
+}
+.panel-2
+{
+    background-color: #222f3d;
+    color: #e2e7e6;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-2 u{
+    margin-top: 20px;
+}
+.panel-2 u a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    cursor: pointer;
+}
+.footer-panel-3
+{
+    background-color: #222f3d;
+    color: #dddddd;
+  border-top: 0.5px solid white;
+  font-size: 0.85rem;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  
+}
+.logo{
+    
+
+        background-image: url("amazon_logo.png");
+        background-size: cover;
+        height: 50px;
+        width: 100px;  
+        justify-content: center;
+        align-items: center;
+}
+.foot-panel4{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
